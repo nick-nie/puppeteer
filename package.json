@@ -4,11 +4,14 @@
   "description": "examples of puppeteer usage",
   "main": "index.js",
   "dependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.8.0",
+    "mocha": "^6.1.4",
     "puppeteer-core": "^1.17.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha browsercontext.js -t 5000"
   },
   "repository": {
     "type": "git",
